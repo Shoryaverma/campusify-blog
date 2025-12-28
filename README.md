@@ -155,7 +155,7 @@ The content cleaning process is implemented in `lib/contentCleaner.ts` and follo
 Each blog page includes:
 - **Title Tag**: `{Page Title} | Campusify Blog`
 - **Meta Description**: Extracted from excerpt or first 160 characters of content
-- **Canonical URL**: `https://yourdomain.com/{slug}`
+- **Canonical URL**: `https://github.com/Shoryaverma/campusify-blog/{slug}`
 - **Open Graph Tags**:
   - `og:title`
   - `og:description`
@@ -296,7 +296,5 @@ This project is created as an assignment submission.
 
 Full Stack Developer Assignment Submission
 
----
 
-**Note**: Remember to update the `canonicalUrl` in `app/[slug]/page.tsx` with your actual domain URL before deployment.
 
