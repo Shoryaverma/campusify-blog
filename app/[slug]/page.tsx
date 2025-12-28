@@ -39,7 +39,7 @@ export async function generateMetadata({
     page.excerpt.rendered
       ? extractExcerpt(page.excerpt.rendered, 160)
       : extractExcerpt(page.content.rendered, 160);
-  const canonicalUrl = `https://yourdomain.com/${slug}`;
+  const canonicalUrl = `https://Shorya-campusify-blog.vercel.app/${slug}`;
   const ogImage = page.yoast_head_json?.og_image?.[0]?.url || '';
 
   return {
